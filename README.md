@@ -14,8 +14,15 @@ _A BBOT scan in real-time - visualization with [VivaGraphJS](https://github.com/
 # stable version
 pipx install bbot
 
+# Install local verion
+git clone https://github.com/blacklanternsecurity/bbot
+pipx install install /path/to/bbot 
+
 # bleeding edge (dev branch)
 pipx install --pip-args '\--pre' bbot
+
+# Uninstall bbot
+pipx uninstall bbot
 ```
 
 _For more installation methods, including [Docker](https://hub.docker.com/r/blacklanternsecurity/bbot), see [Getting Started](https://www.blacklanternsecurity.com/bbot/Stable/)_
